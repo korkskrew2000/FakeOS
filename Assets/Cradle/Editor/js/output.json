@@ -1,0 +1,1250 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Room",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You are standing in your mancave. The floors are filled with trash and the walls filled with anime posters. The slight breeze of the ceiling fan distributes the smell of several months old spaghetti dinner around the whole apartment beautifully.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Check the Refrigerator\",\"CheckRefrigerator\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Check the Refrigerator\",\"CheckRefrigerator\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Check the Refrigerator",
+                                "text": "\"Check the Refrigerator\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckRefrigerator",
+                                "text": "\"CheckRefrigerator\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Check your Apartment Door\",\"CheckDoor\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Check your Apartment Door\",\"CheckDoor\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Check your Apartment Door",
+                                "text": "\"Check your Apartment Door\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckDoor",
+                                "text": "\"CheckDoor\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Turn on the Computer\",\"CheckComputer\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Turn on the Computer\",\"CheckComputer\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Turn on the Computer",
+                                "text": "\"Turn on the Computer\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "CheckComputer",
+                                "text": "\"CheckComputer\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: ($one is true) and ($two is true) and ($three is true)",
+                        "name": "if",
+                        "text": "(if: ($one is true) and ($two is true) and ($three is true))",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "$one is true",
+                                "text": "($one is true)",
+                                "tokens": [
+                                    {
+                                        "name": "one",
+                                        "text": "$one",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "is",
+                                        "type": "is"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "true",
+                                        "type": "boolean"
+                                    }
+                                ],
+                                "type": "grouping"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "and",
+                                "type": "and"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "$two is true",
+                                "text": "($two is true)",
+                                "tokens": [
+                                    {
+                                        "name": "two",
+                                        "text": "$two",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "is",
+                                        "type": "is"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "true",
+                                        "type": "boolean"
+                                    }
+                                ],
+                                "type": "grouping"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "and",
+                                "type": "and"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "$three is true",
+                                "text": "($three is true)",
+                                "tokens": [
+                                    {
+                                        "name": "three",
+                                        "text": "$three",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "is",
+                                        "type": "is"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "true",
+                                        "type": "boolean"
+                                    }
+                                ],
+                                "type": "grouping"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "\nIt's time.\n[[Turn on the Sink->TurnOnSink]]",
+                        "text": "[\nIt's time.\n[[Turn on the Sink->TurnOnSink]]]",
+                        "tokens": [
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "text": "It's time.",
+                                "type": "text"
+                            },
+                            {
+                                "text": "\n",
+                                "type": "br"
+                            },
+                            {
+                                "innerText": "link-goto:\"Turn on the Sink\",\"TurnOnSink\"",
+                                "name": "linkgoto",
+                                "text": "(link-goto:\"Turn on the Sink\",\"TurnOnSink\")",
+                                "tokens": [
+                                    {
+                                        "text": "link-goto:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "innerText": "Turn on the Sink",
+                                        "text": "\"Turn on the Sink\"",
+                                        "type": "string"
+                                    },
+                                    {
+                                        "text": ",",
+                                        "type": "comma"
+                                    },
+                                    {
+                                        "innerText": "TurnOnSink",
+                                        "text": "\"TurnOnSink\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "hook"
+                    }
+                ]
+            },
+            {
+                "Name": "CheckComputer",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "As you press the button, the glow of your decades old CRT-monitor slowly fades in to burn your eyes. The fan is spinning so fast that you feel like the computer could explode at any moment",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $computeron to true",
+                        "name": "set",
+                        "text": "(set: $computeron to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "computeron",
+                                "text": "$computeron",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You see your ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"beautiful desktop\",\"Desktop\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"beautiful desktop\",\"Desktop\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "beautiful desktop",
+                                "text": "\"beautiful desktop\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Desktop",
+                                "text": "\"Desktop\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " infront of you.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "CheckRefrigerator",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "As soon as you open the door, the strong smell of expired Gamerfuel and molded bread fills the house. You drink as much as you can until you feel properly fueled up.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Back\",\"Room\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Back\",\"Room\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Back",
+                                "text": "\"Back\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Room",
+                                "text": "\"Room\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "TurnOnSink",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You turn on the sink, a black fluid that is most definitely not water pours out",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Bottoms up my dudes\",\"DrinkJuice\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Bottoms up my dudes\",\"DrinkJuice\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Bottoms up my dudes",
+                                "text": "\"Bottoms up my dudes\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "DrinkJuice",
+                                "text": "\"DrinkJuice\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "CheckDoor",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "outside stinks.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Go back\",\"Room\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Go back\",\"Room\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Go back",
+                                "text": "\"Go back\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Room",
+                                "text": "\"Room\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "OpenNetscapeNavigator",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You open up your internet browser, the infinite wonders of the information superhighway seem indimitading, yet welcoming.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Go to PissGaming.net\",\"PissNet\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Go to PissGaming.net\",\"PissNet\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Go to PissGaming.net",
+                                "text": "\"Go to PissGaming.net\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "PissNet",
+                                "text": "\"PissNet\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Click the Ad that says \\\"Single Mothers Nearby Who Want Fuck\\\" \",\"Ad\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Click the Ad that says \\\"Single Mothers Nearby Who Want Fuck\\\" \",\"Ad\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Click the Ad that says \\\"Single Mothers Nearby Who Want Fuck\\\" ",
+                                "text": "\"Click the Ad that says \\\"Single Mothers Nearby Who Want Fuck\\\" \"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Ad",
+                                "text": "\"Ad\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Fuck it\",\"Desktop\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Fuck it\",\"Desktop\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Fuck it",
+                                "text": "\"Fuck it\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Desktop",
+                                "text": "\"Desktop\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "DrawInPaint",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You open up MSPaint, the latest innovation in the field of painting, your mind wonders with endless artistic possibilities.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You end up drawing a penis and ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"closing the program.\",\"Desktop\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"closing the program.\",\"Desktop\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "closing the program.",
+                                "text": "\"closing the program.\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Desktop",
+                                "text": "\"Desktop\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "DrinkJuice",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Incredible power is resurging within you...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "oh wait no your lungs clog up and suffocated to death.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "*Wow!*",
+                        "text": "***Wow!***",
+                        "tokens": [
+                            {
+                                "innerText": "Wow!",
+                                "text": "*Wow!*",
+                                "tokens": [
+                                    {
+                                        "text": "Wow!",
+                                        "type": "text"
+                                    }
+                                ],
+                                "type": "em"
+                            }
+                        ],
+                        "type": "strong"
+                    },
+                    {
+                        "text": " That sure was a horrible idea! stupid ass",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "001",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "304",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "200",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Ad",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The moms you were promised turned out to be a lie as there were only single dads in there. ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "set: $one to true",
+                        "name": "set",
+                        "text": "(set: $one to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "one",
+                                "text": "$one",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You sigh and ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"press the back button.\",\"OpenNetscapeNavigator\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"press the back button.\",\"OpenNetscapeNavigator\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "press the back button.",
+                                "text": "\"press the back button.\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "OpenNetscapeNavigator",
+                                "text": "\"OpenNetscapeNavigator\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Desktop",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You stare intently at your beautiful desktop and an intense sense of euphoria rushes over you as you think to yourself; ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "\"This is it, gamer's paradise.\"",
+                        "text": "*\"This is it, gamer's paradise.\"*",
+                        "tokens": [
+                            {
+                                "text": "\"This is it, gamer's paradise.\"",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "em"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"*Surf* the *Net*\",\"OpenNetscapeNavigator\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"*Surf* the *Net*\",\"OpenNetscapeNavigator\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "*Surf* the *Net*",
+                                "text": "\"*Surf* the *Net*\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "OpenNetscapeNavigator",
+                                "text": "\"OpenNetscapeNavigator\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Practice Fine Arts\",\"DrawInPaint\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Practice Fine Arts\",\"DrawInPaint\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Practice Fine Arts",
+                                "text": "\"Practice Fine Arts\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "DrawInPaint",
+                                "text": "\"DrawInPaint\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"GAMER MODE: ON\",\"GamingTime\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"GAMER MODE: ON\",\"GamingTime\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "GAMER MODE: ON",
+                                "text": "\"GAMER MODE: ON\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "GamingTime",
+                                "text": "\"GamingTime\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Turn Off Computer\",\"Room\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Turn Off Computer\",\"Room\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Turn Off Computer",
+                                "text": "\"Turn Off Computer\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Room",
+                                "text": "\"Room\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "GamingTime",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "<img src=\"ready2game.png\"/>",
+                        "type": "tag"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You put on your Gaming Glasses™ and Gaming Gloves™ but not before covering your entire body in Gaming Goo™.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You boot up your favorite game ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "Senku Tetsura Enternity: Vampire Rebellion 95; Battle for Third Neo Detroit \"The Quantum Armageddon\" (大きな悪臭)",
+                        "text": "*Senku Tetsura Enternity: Vampire Rebellion 95; Battle for Third Neo Detroit \"The Quantum Armageddon\" (大きな悪臭)*",
+                        "tokens": [
+                            {
+                                "text": "Senku Tetsura Enternity: Vampire Rebellion 95; Battle for Third Neo Detroit \"The Quantum Armageddon\" (大きな悪臭)",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "em"
+                    },
+                    {
+                        "text": " and get ready to pwn some noobs online.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Get killed immediately by a sniper, write an angry message into the chat\",\"upsetti\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Get killed immediately by a sniper, write an angry message into the chat\",\"upsetti\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Get killed immediately by a sniper, write an angry message into the chat",
+                                "text": "\"Get killed immediately by a sniper, write an angry message into the chat\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "upsetti",
+                                "text": "\"upsetti\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "PissNet",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The website seems familiar yet distant somehow.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "There is a logo with a picture of a planet and next to it words \"pissNET\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "There are 5 panels; News, Forums, Video Games, Sports and Live Chat.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"You decide not to click on any of them.\",\"OpenNetscapeNavigator\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"You decide not to click on any of them.\",\"OpenNetscapeNavigator\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "You decide not to click on any of them.",
+                                "text": "\"You decide not to click on any of them.\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "OpenNetscapeNavigator",
+                                "text": "\"OpenNetscapeNavigator\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $three to true",
+                        "name": "set",
+                        "text": "(set: $three to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "three",
+                                "text": "$three",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "upsetti",
+                "Pid": "13",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You write a long and descriptive message about how you had sexual intercourse with the opposing player's mother. Before you're able to send the message however you notice that the game ended 30 minutes ago.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $two to true",
+                        "name": "set",
+                        "text": "(set: $two to true)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "two",
+                                "text": "$two",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "true",
+                                "type": "boolean"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"ALT+F4\",\"Desktop\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"ALT+F4\",\"Desktop\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "ALT+F4",
+                                "text": "\"ALT+F4\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Desktop",
+                                "text": "\"Desktop\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}
